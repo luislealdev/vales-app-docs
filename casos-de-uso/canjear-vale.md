@@ -1,4 +1,4 @@
-2. Canjear Vale
+# Canjear Vale
 
 - Actor: Sucursal, Cliente
 - Descripción: El cliente presenta un vale en la sucursal, donde se valida el código y se canjea el monto correspondiente.

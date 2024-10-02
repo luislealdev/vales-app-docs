@@ -1,4 +1,4 @@
-3. Registrar Cliente
+# Registrar Cliente
 
    - Actor: Distribuidor
    - Descripción: El distribuidor registra a un nuevo cliente en el sistema.

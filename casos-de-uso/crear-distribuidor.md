@@ -1,4 +1,4 @@
-5. Crear Distribuidor
+# Crear Distribuidor
 
 - Actor: Administrador
 - Descripción: El administrador crea nuevos distribuidores en el sistema.

@@ -1,4 +1,4 @@
-4. Consulta de Ventas y Pagos
+# Consulta de Ventas y Pagos
 
 - Actor: Distribuidor, Administrador
 - Descripción: Los distribuidores y administradores consultan el historial de ventas y pagos relacionados con los vales.

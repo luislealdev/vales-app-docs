@@ -1,4 +1,4 @@
-1. Crear Vale
+# Crear Vale
 
    - Actor: Distribuidor
    - Descripción: El distribuidor selecciona un cliente y genera un vale con un monto específico y el número de meses para pagarlo.
