@@ -1,21 +1,26 @@
 # Realizar Pago de Vale
 
-- Descripción: El cliente realiza un pago parcial o total correspondiente al monto de un vale.
+- Descripción: El distribuidor es el encargado de registrar los pagos recibidos por el cliente, ya sea en efectivo o por transferencia. Una vez registrado el pago, el distribuidor tiene la responsabilidad de entregar los fondos al administrador al final del mes.
 
-- Actores: Cliente, Distribuidor.
+- Actores: Distribuidor.
 
 - Precondiciones:
 
-  - El vale debe estar vigente y tener montos pendientes.
-  - El cliente debe estar registrado y tener un calendario de pagos asociado al vale.
+  - El cliente debe haber entregado el pago al distribuidor.
+  - El distribuidor tiene acceso a la aplicación para registrar el pago.
 
   * Flujo principal:
 
-    1. El cliente elige el monto que desea pagar (puede ser total, parcial o adelantado).
-    2. El distribuidor confirma el pago.
-    3. Se actualiza el estado del pago en el sistema.
-    4. Si el pago cubre más de un mes o adelanta pagos futuros, se ajusta el calendario de pagos.
+    1. El distribuidor selecciona al cliente que realizó el pago y el vale correspondiente.
+    2. El sistema muestra el monto adeudado y las mensualidades pendientes.
+    3. El distribuidor ingresa el monto recibido.
+    4. El sistema registra el pago, actualiza el saldo del cliente y muestra la deuda restante.
+    5. El distribuidor entrega los fondos al administrador al final del mes.
+  
+- Postcondiciones
+  - El pago del cliente queda registrado en el sistema.
+  - El sistema actualiza el historial de pagos del cliente.
 
 - Excepciones:
-  - Si el monto es menor al esperado (e.g., un pago incompleto de la mensualidad), se debe notificar que el saldo queda pendiente.
+  - Si el distribuidor intenta registrar un monto mayor al adeudado, el sistema lo rechaza.
   - Si hay un problema técnico durante el pago, el sistema debe anular el proceso y notificar al distribuidor.

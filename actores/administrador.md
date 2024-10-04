@@ -4,6 +4,8 @@
 
 El administrador gestiona la plataforma en general, incluyendo la creación de nuevos distribuidores y la supervisión de las transacciones y los vales.
 
+Recibe los pagos de los distribuidores y tiene acceso a las estadísticas de pagos y deudas.
+
 ## Funciones
 
 - **Crear Distribuidor**: Registra nuevos distribuidores en el sistema.
